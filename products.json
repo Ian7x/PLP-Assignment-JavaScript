@@ -1,0 +1,290 @@
+{
+  "sedan": [
+    {
+      "name": "Toyota Camry",
+      "description": "Midsize Sedan",
+      "imageUrl": "images/s_sedan1.jpg",
+      "price": "$25,000",
+      "color": "Silver"
+    },
+    {
+      "name": "Honda Accord",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan2.jpg",
+      "price": "$24,500",
+      "color": "Black"
+    },
+    {
+      "name": "Ford Fusion",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan3.jpg",
+      "price": "$23,800",
+      "color": "Blue"
+    },
+    {
+      "name": "Chevrolet Malibu",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan4.jpg",
+      "price": "$22,900",
+      "color": "Red"
+    },
+    {
+      "name": "Nissan Altima",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan5.jpg",
+      "price": "$23,500",
+      "color": "White"
+    },
+    {
+      "name": "Hyundai Sonata",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan6.jpg",
+      "price": "$22,700",
+      "color": "Gray"
+    },
+    {
+      "name": "Kia Optima",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan7.jpg",
+      "price": "$23,200",
+      "color": "Blue"
+    },
+    {
+      "name": "Mazda6",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan8.jpg",
+      "price": "$24,800",
+      "color": "Red"
+    },
+    {
+      "name": "Volkswagen Passat",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan9.jpg",
+      "price": "$24,000",
+      "color": "White"
+    },
+    {
+      "name": "Subaru Legacy",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan10.jpg",
+      "price": "$23,600",
+      "color": "Green"
+    },
+    {
+      "name": "Audi A4",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan11.jpg",
+      "price": "$32,000",
+      "color": "Black"
+    },
+    {
+      "name": "BMW 3 Series",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan12.jpg",
+      "price": "$35,500",
+      "color": "Silver"
+    },
+    {
+      "name": "Mercedes-Benz C-Class",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan13.jpg",
+      "price": "$37,800",
+      "color": "Blue"
+    },
+    {
+      "name": "Lexus ES",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan14.jpg",
+      "price": "$39,500",
+      "color": "Gray"
+    },
+    {
+      "name": "Infiniti Q50",
+      "description": "Sedan",
+      "imageUrl": "images/s_sedan15.jpg",
+      "price": "$41,200",
+      "color": "Black"
+    }
+  ],
+
+  "suv": [
+    {
+      "name": "Toyota RAV4",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv1.jpg",
+      "price": "$28,000",
+      "color": "Blue"
+    },
+    {
+      "name": "Honda CR-V",
+      "description": "SUV",
+      "imageUrl": "images/su_suv2.jpg",
+      "price": "$27,500",
+      "color": "Black"
+    },
+    {
+      "name": "Ford Escape",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv3.jpg",
+      "price": "$26,800",
+      "color": "Red"
+    },
+    {
+      "name": "Chevrolet Equinox",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv4.jpg",
+      "price": "$25,900",
+      "color": "Silver"
+    },
+    {
+      "name": "Nissan Rogue",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv5.jpg",
+      "price": "$26,300",
+      "color": "White"
+    },
+    {
+      "name": "Hyundai Tucson",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv6.jpg",
+      "price": "$25,700",
+      "color": "Gray"
+    },
+    {
+      "name": "Kia Sportage",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv7.jpg",
+      "price": "$26,200",
+      "color": "Blue"
+    },
+    {
+      "name": "Mazda CX-5",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv8.jpg",
+      "price": "$27,800",
+      "color": "Red"
+    },
+    {
+      "name": "Volkswagen Tiguan",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv9.jpg",
+      "price": "$27,000",
+      "color": "White"
+    },
+    {
+      "name": "Subaru Forester",
+      "description": "Compact SUV",
+      "imageUrl": "images/su_suv10.jpg",
+      "price": "$26,600",
+      "color": "Green"
+    },
+    {
+      "name": "Toyota Highlander",
+      "description": "Midsize SUV",
+      "imageUrl": "images/su_suv11.jpg",
+      "price": "$36,000",
+      "color": "Black"
+    },
+    {
+      "name": "Honda Pilot",
+      "description": "Midsize SUV",
+      "imageUrl": "images/su_suv12.jpg",
+      "price": "$35,500",
+      "color": "Silver"
+    },
+    {
+      "name": "Ford Explorer",
+      "description": "Midsize SUV",
+      "imageUrl": "images/su_suv13.jpg",
+      "price": "$34,800",
+      "color": "Blue"
+    },
+    {
+      "name": "Chevrolet Traverse",
+      "description": "Midsize SUV",
+      "imageUrl": "images/su_suv14.jpg",
+      "price": "$33,900",
+      "color": "Gray"
+    },
+    {
+      "name": "Nissan Murano",
+      "description": "Midsize SUV",
+      "imageUrl": "images/su_suv15.jpg",
+      "price": "$34,300",
+      "color": "Black"
+    }
+  ],
+
+  "trucks": [
+    {
+      "name": "Ford F-150",
+      "description": "Full-Size Pickup Truck",
+      "imageUrl": "images/tr_truck1.jpg",
+      "price": "$32,000",
+      "color": "Blue"
+    },
+    {
+      "name": "Chevrolet Silverado 1500",
+      "description": "Full-Size Pickup Truck",
+      "imageUrl": "images/tr_truck2.jpg",
+      "price": "$33,500",
+      "color": "Red"
+    },
+    {
+      "name": "Ram 1500",
+      "description": "Full-Size Pickup Truck",
+      "imageUrl": "images/tr_truck3.jpg",
+      "price": "$31,800",
+      "color": "White"
+    },
+    {
+      "name": "GMC Sierra 1500",
+      "description": "Full-Size Pickup Truck",
+      "imageUrl": "images/tr_truck4.jpg",
+      "price": "$33,200",
+      "color": "Black"
+    },
+    {
+      "name": "Toyota Tacoma",
+      "description": "Midsize Pickup Truck",
+      "imageUrl": "images/tr_truck5.jpg",
+      "price": "$28,500",
+      "color": "Gray"
+    },
+    {
+      "name": "Chevrolet Colorado",
+      "description": "Midsize Pickup Truck",
+      "imageUrl": "images/tr_truck6.jpg",
+      "price": "$27,800",
+      "color": "Blue"
+    },
+    {
+      "name": "Ford Ranger",
+      "description": "Midsize Pickup Truck",
+      "imageUrl": "images/tr_truck7.jpg",
+      "price": "$27,300",
+      "color": "Red"
+    },
+    {
+      "name": "Nissan Frontier",
+      "description": "Midsize Pickup Truck",
+      "imageUrl": "images/tr_truck8.jpg",
+      "price": "$26,900",
+      "color": "Silver"
+    },
+    {
+      "name": "Chevrolet Silverado 2500HD",
+      "description": "Heavy-Duty Pickup Truck",
+      "imageUrl": "images/tr_truck9.jpg",
+      "price": "$40,500",
+      "color": "White"
+    },
+    {
+      "name": "Ford F-250",
+      "description": "Heavy-Duty Pickup Truck",
+      "imageUrl": "images/tr_truck10.jpg",
+      "price": "$39,800",
+      "color": "Black"
+    }
+  ]
+}
