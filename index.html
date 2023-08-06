@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Header start-->
+    <header class="sticky">
+      <div class="logo">
+        <a href=""> <img src="images/logo1.png" /> </a>
+        <h1>CarsMania</h1>
+      </div>
+      <nav>
+        <select id="category-dropdown">
+          <option value="sedan">Sedan</option>
+          <option value="suv">SUV</option>
+          <option value="trucks">Truck</option>
+        </select>
+      </nav>
+    </header>
+    <!--Header end-->
+
+    <!--Main start-->
+    <main>
+      <!--Category info start-->
+      <section class="category-info">
+        <h2 id="category-name">All Categories</h2>
+        <p id="category-description">Explore our brands</p>
+        <p class="product-counter" id="product-counter"></p>
+      </section>
+      <!--Category info end-->
+      <!--Sort section start-->
+      <section class="sorting" id="sorting-section">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+          <option value="name-asc">Alphabetical a-z</option>
+          <option value="name-desc">Alphabetical z-a</option>
+          <option value="price-asc">Price ascending</option>
+          <option value="price-desc">Price descending</option>
+        </select>
+      </section>
+      <!--Sort section end-->
+      <!--Filter price and color and content start-->
+      <div class="content-wrapper">
+        <section class="sorting-filters-wrapper">
+          <section class="filtering">
+            <div class="filters-box" onclick="toggleFilters()">Filters</div>
+            <div class="filters-window" id="filtersWindow">
+              <div class="filters">
+                <h2>All Filters</h2>
+                <h4>
+                  <label for="color-filter">Filter by Color:</label>
+                </h4>
+                <div class="color-filter">
+                  <input
+                    type="checkbox"
+                    name="color"
+                    id="color-red"
+                    value="red"
+                  />
+                  <label for="color-red">Red</label>
+                </div>
+                <div class="color-filter">
+                  <input
+                    type="checkbox"
+                    name="color"
+                    id="color-blue"
+                    value="blue"
+                  />
+                  <label for="color-blue">Blue</label>
+                </div>
+                <div class="color-filter">
+                  <input
+                    type="checkbox"
+                    name="color"
+                    id="color-black"
+                    value="black"
+                  />
+                  <label for="color-black">Black</label>
+                </div>
+                <div class="color-filter">
+                  <input
+                    type="checkbox"
+                    name="color"
+                    id="color-white"
+                    value="white"
+                  />
+                  <label for="color-white">White</label>
+                </div>
+                <div class="color-filter">
+                  <input
+                    type="checkbox"
+                    name="color"
+                    id="color-silver"
+                    value="silver"
+                  />
+                  <label for="color-silver">Silver</label>
+                </div>
+                <div class="color-filter"></div>
+                <div class="color-filter"></div>
+
+                <div class="color-filter"></div>
+
+                <h4>
+                  <label for="price-range">Filter by Price:</label>
+                </h4>
+                <div class="price-filter">
+                  <input
+                    type="checkbox"
+                    name="price"
+                    id="price-under-25000"
+                    value="0-25000"
+                  />
+                  <label for="price-under-25000">Under $25000</label>
+                </div>
+                <div class="price-filter">
+                  <input
+                    type="checkbox"
+                    name="price"
+                    id="price-25000-30000"
+                    value="25000-30000"
+                  />
+                  <label for="price-25000-30000">$25000 - $30000</label>
+                </div>
+                <div class="price-filter">
+                  <input
+                    type="checkbox"
+                    name="price"
+                    id="price-30000-35000"
+                    value="30000-35000"
+                  />
+                  <label for="price-500-1000">$30000 - $35000</label>
+                </div>
+                <div class="price-filter">
+                  <input
+                    type="checkbox"
+                    name="price"
+                    id="price-35000-40000"
+                    value="35000-40000"
+                  />
+                  <label for="price-1000-1500">$35000 - $40000</label>
+                </div>
+                <div class="price-filter">
+                  <input
+                    type="checkbox"
+                    name="price"
+                    id="over-40000"
+                    value="over-40000"
+                  />
+                  <label for="over-40000">Over $40000</label>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section class="product-grid-container">
+          <div id="products" class="product-grid">
+            <!-- Product listing will be here -->
+          </div>
+        </section>
+      </div>
+      <!--Filter price and color end-->
+
+      <button id="load-more">Load More</button>
+    </main>
+    <!--Main end-->
+    <!--Footer-->
+    <footer>
+      <ul>
+        <li><a href="#">T&C</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
